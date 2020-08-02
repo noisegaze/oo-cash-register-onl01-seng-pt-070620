@@ -22,7 +22,7 @@ class CashRegister
   def apply_discount
     if discount == 0 
       "There is no discount to apply"
-    elsif discount  > 0 
+    else discount  > 0 
       self.total -= discount
       "After the discount, your total is #{self.total}."
     else 
