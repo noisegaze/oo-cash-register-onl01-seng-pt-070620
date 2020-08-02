@@ -25,8 +25,6 @@ class CashRegister
     else discount  > 0 
       self.total -= discount
       "After the discount, your total is #{self.total}."
-    else 
-      nil 
     end  
   end
   
