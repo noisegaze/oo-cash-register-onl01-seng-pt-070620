@@ -29,7 +29,6 @@ class CashRegister
     else 
       nil 
     end  
-    
   end
   
   
