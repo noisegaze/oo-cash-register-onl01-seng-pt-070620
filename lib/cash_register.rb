@@ -23,7 +23,7 @@ class CashRegister
     if discount == 0 
       "There is no discount to apply"
     else discount  > 0 
-      elf.discount -= %discount
+      self.discount -= %discount
       "After the discount, your total is #{self.total}."
     end  
   end
