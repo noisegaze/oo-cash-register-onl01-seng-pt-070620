@@ -28,7 +28,7 @@ class CashRegister
     end  
   end
   
-  def void_the_last_transaction
+  def void_last_transaction
     price = @last_transaction_price
     quantity = @last_transaction_quantity
     cost = price*quantity
